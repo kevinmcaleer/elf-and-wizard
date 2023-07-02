@@ -4,6 +4,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Elf"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAABERAAAAAAAAEBERAAAAAAAAEBERAAAAAAAAEBEREQEAAAAREREREQAAERERERERAAAREREREREAABEREREREQAAERERERERAAAAEBEREREAAAAAEREREQAAAAAAERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ghost"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
