@@ -1,0 +1,7 @@
+music.play(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+scene.setBackgroundColor(0)
+tiles.setCurrentTilemap(tilemap`level2`)
+let mySprite = sprites.create(assets.image`Elf`, SpriteKind.Player)
+tiles.placeOnRandomTile(mySprite, assets.tile`start`)
+controller.moveSprite(mySprite)
+scene.cameraFollowSprite(mySprite)
